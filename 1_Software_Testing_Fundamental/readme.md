@@ -29,4 +29,4 @@ Software testing fundamental mencakup konsep-konsep dasar yang penting untuk mem
    - Melacak dan melaporkan defect secara efektif.
 
 7. Alat Pengujian (Testing Tools):
-    - Pemahaman tentang alat pengujian perangkat lunak seperti Selenium, Android Studio, atau Appium, katalon, postman, dll.
+    - Pemahaman tentang alat pengujian perangkat lunak seperti Selenium, Android Studio, atau Appium, katalon, postman, dan lai-lain.s
