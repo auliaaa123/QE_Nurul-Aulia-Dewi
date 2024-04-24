@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to Digital Library</h1>
+        <form action="" class="form">
+            <div>
+                <label for="">Create a new member</label>
+            </div>
+            <div  >
+                <label for="">Name</label>
+                <input type="text" placeholder="">
+            </div>
+            <div  >
+                <label for="">Email</label>
+                <input type="text" placeholder="">
+            </div>
+            <div  >
+                <label for="">Password</label>
+                <input type="text" placeholder="">
+            </div>
+            <div  >
+                <label for="">Phone Number</label>
+                <input type="text" placeholder="">
+            </div>
+            <div  >
+                <label for="">Phone Number</label>
+                <input type="text" placeholder="">
+            </div>
+            <div  >
+                <label for="">Address</label>
+                <textarea type="text" placeholder=""  rows="10" cols="40">
+                </textarea>
+            </div>
+            <div>
+                <div>
+                    <lable for="gender">Gender</lable>
+                    <input type="radio" id="male">
+                    <label for="male">Male</label>
+                    <input type="radio" id="female">
+                    <label for="female">Female</label>
+                </div>
+            </div>
+            <div>
+                <button type="submit" class="btn btn-default">Registrasi</button>
+            </div>
+
+        </form>
+    </div>
+    <div class="container">
+        <div class="b">
+            <h1>Welcome to Digital Library</h1>
+                <label for="">Create a new member</label>
+            <form action="" class="form">
+                <div class="form-group">
+                    <label for="">Name</label>
+                    <input type="text" placeholder="">
+                </div>
+                <div class="form-group" >
+                    <label for="">Email</label>
+                    <input type="text" placeholder="">
+                </div>
+                <div class="form-group" >
+                    <label for="">Password</label>
+                    <input type="text" placeholder="">
+                </div>
+                <div class="form-group" >
+                    <label for="">Phone Number</label>
+                    <input type="text" placeholder="">
+                </div>
+                <div class="form-group" >
+                    <label for="">Phone Number</label>
+                    <input type="text" placeholder="">
+                </div>
+                <div class="form-group" >
+                    <label for="">Address</label>
+                    <textarea type="text" placeholder=""  rows="10" cols="40">
+                    </textarea>
+                </div>
+                    <button type="submit" class="btn btn-default btn2">Submit</button>
+            </form>
+
+        </div>
+    </div>
+</body>
+</html>
+<style>
+    .form{
+        display: flex;
+        /* align-items: center; */
+        justify-content: center;
+        flex-direction: column;
+        gap: 10px;
+        margin: 3px 0px;
+    }
+    .container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        border: 1px;
+        margin-top: 20px;
+    }
+    .form-group{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .b{
+        border-style: solid;
+        border-color: dimgray;
+        padding: 30px;
+    }
+
+    .btn2{
+        background-color: blue;
+        color: white;
+        padding: 10px;
+        border-radius: 8px;
+        border:none
+        
+    }
+</style>
