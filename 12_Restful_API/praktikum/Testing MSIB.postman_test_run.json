@@ -1,0 +1,132 @@
+{
+	"id": "65306f83-7556-49b3-94ca-1fd0071c39ba",
+	"name": "Testing MSIB",
+	"timestamp": "2024-04-19T13:11:01.315Z",
+	"collection_id": "33131608-1dee6a03-e1da-4cd0-a57a-c40bd8dfbe06",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 0,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2024-04-19T13:10:34.108Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "c4413f7a-340c-4c97-9f17-a11de50fff05",
+			"name": "https://jsonplaceholder.typicode.com/posts",
+			"url": "https://jsonplaceholder.typicode.com/posts",
+			"time": 20435,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				20435
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "9dc90927-3f43-4cef-9168-a1f24a51344c",
+			"name": "https://jsonplaceholder.typicode.com/posts",
+			"url": "https://jsonplaceholder.typicode.com/posts",
+			"time": 2948,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				2948
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "d08fb46f-fd8f-4c00-a71e-8815e7c6f034",
+			"name": "https://jsonplaceholder.typicode.com/posts/1",
+			"url": "https://jsonplaceholder.typicode.com/posts/1",
+			"time": 545,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				545
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "600c9cd2-08c7-4025-8e0f-8459b64163c3",
+			"name": "https://jsonplaceholder.typicode.com/posts/1",
+			"url": "https://jsonplaceholder.typicode.com/posts/1",
+			"time": 2003,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				2003
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "cf05e6c0-7424-4d8b-8beb-7dc25547241e",
+			"name": "https://jsonplaceholder.typicode.com/posts/1",
+			"url": "https://jsonplaceholder.typicode.com/posts/1",
+			"time": 945,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				945
+			],
+			"allTests": [
+				{}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 26876,
+	"collection": {
+		"requests": [
+			{
+				"id": "c4413f7a-340c-4c97-9f17-a11de50fff05",
+				"method": "GET"
+			},
+			{
+				"id": "9dc90927-3f43-4cef-9168-a1f24a51344c",
+				"method": "POST"
+			},
+			{
+				"id": "d08fb46f-fd8f-4c00-a71e-8815e7c6f034",
+				"method": "GET"
+			},
+			{
+				"id": "600c9cd2-08c7-4025-8e0f-8459b64163c3",
+				"method": "PUT"
+			},
+			{
+				"id": "cf05e6c0-7424-4d8b-8beb-7dc25547241e",
+				"method": "DELETE"
+			}
+		]
+	}
+}
